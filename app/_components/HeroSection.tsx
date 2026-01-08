@@ -26,11 +26,11 @@ const HeroSection = () => {
             <span className="text-primary">Web Development</span> Synergy
           </h1> */}
           <TextGenerateEffect
-            words="Quality Design & Web Development Synergy"
+            words="AI Systems & Full-stack Development Synergy"
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide"
           />
           <p className="pt-5 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
-            Hi, I&apos;m Rahma a full-stack software engineer based in San Francisco Bay Area. Software Engineer experienced in shipping features to production and scaling ML-powered systems used by 120M+ users.Experienced in end-to-end development of internal SDKs, full-stack applications, and developer tooling. Skilled in rapidly prototyping 0→1 products, optimizing ML pipelines, and shipping reliable, scalable systems in startup-like environments.
+          👋 I&apos;m Rahma a Software Engineer experienced in shipping features to production and scaling ML-powered systems used by 120M+ users.Experienced in end-to-end development of internal SDKs, full-stack applications, and developer tooling. Skilled in rapidly prototyping 0→1 products, optimizing ML pipelines, and shipping reliable, scalable systems in startup-like environments.
           </p>
           <p className="pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
             My recent work includes shipping UI features to 100+ million plus users at Playstation (Sony Interactive Entertainment), and building scalable curriculum tools for open-source education initiatives used by 600+ developers.
