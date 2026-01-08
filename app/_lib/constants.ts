@@ -190,7 +190,7 @@ export const testimonialItems = [
     name: "Anil Aksay",
     proffesion: "Staff Engineer at Linkedin",
     description:
-      "“Working with Rahma was a very smooth experience from start to finish.  He not only brings strong technical skills to front-end development, but his attention to detail and commitment to delivering pixel-perfect  designs made a huge difference in our project. He is enthusiastic in  suggesting improvements. Always ready to answer questions or provide  updates. If you're looking for a reliable developer who brings  creativity and efficiency to the table, Rahma is the right person!”",
+      "“Working with Rahma was a very smooth experience from start to finish. She is enthusiastic in suggesting improvements. Always ready to answer questions or provide  updates. If you're looking for a reliable developer who brings creativity and efficiency to the table, Rahma is the right person!”",
     image: "/imgs/avatars/Anil.jpg",
   },
   {
@@ -199,7 +199,7 @@ export const testimonialItems = [
     name: "Keri Carpenter",
     proffesion: "Senior Engineering Manager at Sony Interactive Entertainment",
     description:
-      "Rahma is an outstanding frontend specialist and presents consistently high level of work. During our work together, she has demonstrated extraordinary skills in simplifying complex ideas into clean, functional, and visually appealing designs. His communication is to the point and time management is perfect, even for the most pressing deadlines. I would highly recommend her to any company looking to bring on a frontend developer with strong technical skills and an keen eye for design.”",
+      "Rahma is an outstanding professional and presents consistently high level of work. During our work together, she has demonstrated extraordinary skills in simplifying complex ideas into clean, functional, and visually appealing designs. Her communication is to the point and time management is perfect, even for the most pressing deadlines. I would highly recommend her to any company looking to bring on a fullstack software developer with strong technical skills and an keen eye for design.”",
     image: "/imgs/avatars/Keri.jpg",
   },
   {
@@ -208,7 +208,7 @@ export const testimonialItems = [
     name: "Karena Tyan",
     proffesion: "Staff Technical Program Manager at Sony Interactive Media",
     description:
-      "“On several occasions, I have had the privilege to work with Rahma, and she has never failed to impress. While she possesses a great level of knowledge in frontend development, what I find most remarkable about him is his obsession with getting every detail right in order to achieve perfection in the end-user experience. He always pays attention to the project requirements, raises up some pertinent issues, and most importantly delivers beyond the call of duty. Rahma is the kind of person who adds value to the team he's in!”",
+      "Rahma is such an incredible member of our team, so productive, positibe, and collabrorative. I am envious of wherever she goes next. They'll be lucky to have her! On several occasions, I have had the privilege to work with Rahma, and she has never failed to impress. She always pays attention to the project requirements, raises up some pertinent issues, and most importantly delivers beyond the call of duty. Rahma is the kind of person who adds value to the team she's in!”",
     image: "/imgs/avatars/Karena.jpg",
   },
 ];

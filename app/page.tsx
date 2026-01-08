@@ -13,8 +13,8 @@ import Footer from "@/app/_components/Footer";
 
 const navItems = [
   { name: "Home", link: "#home", icon: <House /> },
-  { name: "Work", link: "#work", icon: <BriefcaseBusiness /> },
-  { name: "About", link: "#about", icon: <UserRound /> },
+  { name: "Work Experience", link: "#about", icon: <UserRound /> },
+  { name: "Projects", link: "#work", icon: <BriefcaseBusiness /> },
   { name: "Contact", link: "#contact", icon: <ContactIco /> },
 ];
 
@@ -24,9 +24,9 @@ const Homepage = () => {
       <div className="max-w-7xl mx-auto w-full">
         <Navbar navItems={navItems} />
         <HeroSection />
+        <Testimonials />
         <Skills />
         <ProjectsSection />
-        <Testimonials />
         <Footer />
       </div>
     </main>
