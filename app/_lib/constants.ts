@@ -82,7 +82,7 @@ export const workExperiences = [
     subheading: "Software Engineer (Contract) · Jul 2024 – Jul 2025",
     description:
       "Developed and maintained internal SDKs and C++ libraries powering PlayStation’s machine learning deployments on console. Enabled real-time inference, seamless platform integration, and reliable over-the-air ML updates used by millions of devices worldwide.",
-    imageUrl: "/images/logos/playstation.png",
+    companyLogo: "/imgs/work/playstation.png",
     techStack: [
       "C++",
       "TypeScript",
@@ -103,7 +103,7 @@ export const workExperiences = [
     subheading: "Software Engineering Fellow · Nov 2024 – Feb 2025",
     description:
       "Refactored and optimized UI components for performance and accessibility. Collaborated with product and engineering leads to ship features ahead of schedule and support multiple high-impact launches.",
-    imageUrl: "/images/logos/techprep.jpg",
+    companyLogo: "/imgs/work/techprep.jpg",
     techStack: [
       "React",
       "TypeScript",
@@ -119,7 +119,7 @@ export const workExperiences = [
     subheading: "Full-Stack Software Engineer · Nov 2022 – Dec 2023",
     description:
       "Built and scaled production-ready React-based curriculum tools for 600+ developers. Led cross-functional teams and implemented robust front-end and back-end systems using modern web technologies.",
-    imageUrl: "/images/logos/techtonica.jpg",
+    companyLogo: "/imgs/work/techtonica.jpg",
     techStack: [
       "React",
       "TypeScript",
@@ -139,7 +139,7 @@ export const workExperiences = [
     subheading: "Software Developer · Aug 2021 – May 2022",
     description:
       "Developed responsive React UI components for applications visualizing large-scale testing data and maintained Python-based analysis tooling to improve education technology insights.",
-    imageUrl: "/images/logos/ucberkeley.jpg",
+    companyLogo: "/imgs/work/ucberkeley.jpg",
     techStack: [
       "React",
       "Python",
@@ -156,7 +156,7 @@ export const workExperiences = [
     subheading: "Undergraduate Researcher · Sep 2021 – May 2022",
     description:
       "Worked on a distributed real-time data processing system for financial market analysis, handling high-throughput data streams with low-latency and high-availability requirements.",
-    imageUrl: "/images/logos/school_education.jpg",
+    companyLogo: "/imgs/work/school_education.jpg",
     techStack: [
       "Python",
       "FastAPI",

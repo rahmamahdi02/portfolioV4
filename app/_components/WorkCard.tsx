@@ -16,6 +16,7 @@ interface WorkCardProps {
     description: string;
     technologies: string[];
     companyLogo: string;
+    imageUrl: string;
   };
 }
 

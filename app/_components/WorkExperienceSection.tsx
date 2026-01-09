@@ -14,8 +14,8 @@ const WorkExperiences = () => {
         </h2>
 
         <ShinyButton icon={<ChevronRight />}>
-          <Link href="/resume.pdf" target="_blank">
-            View All
+          <Link href="https://www.linkedin.com/in/rahmamahdi/" target="_blank">
+            Connect on Linkedin
           </Link>
         </ShinyButton>
       </div>
