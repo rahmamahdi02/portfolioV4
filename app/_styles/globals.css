@@ -6,4 +6,8 @@
   html {
     @apply scroll-smooth;
   }
+
+  body {
+    @apply bg-yellow-light text-dark-200; /* light yellow background */
+  }
 }

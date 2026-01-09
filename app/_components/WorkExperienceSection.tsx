@@ -1,14 +1,17 @@
+"use client";
+
 import { workExperiences } from "../_lib/constants";
 import WorkCard from "./WorkCard";
 import ShinyButton from "./ui/ShinyButton";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 const WorkExperiences = () => {
   return (
-    <div className="h-screen py-32" id="about">
+    <section className="py-32 px-5 sm:px-10 lg:px-20" id="about">
       {/* Header with title + button */}
-      <div className="flex gap-4 flex-col sm:flex-row sm:items-center justify-between mb-8">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-12">
         <h2 className="text-3xl min-[430px]:text-4xl md:text-5xl font-bold dark:text-stone-200">
           Work Experience
         </h2>
@@ -19,18 +22,22 @@ const WorkExperiences = () => {
         </ShinyButton>
       </div>
 
-      {/* Vertical scroll container */}
-      <div className="h-[70vh] overflow-y-auto space-y-8 snap-y snap-mandatory">
+      {/* Work cards list */}
+      <div className="flex flex-col space-y-8">
         {workExperiences.map((exp) => (
-          <div key={exp.company} className="snap-start">
+          <motion.div
+            key={exp.id}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
             <WorkCard experience={exp} />
-          </div>
+          </motion.div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
 export default WorkExperiences;
-
-

@@ -12,14 +12,14 @@ export const metadata: Metadata = {
     default: "Rahma Mahdi - Fullstack Software Engineer",
   },
   description:
-    "Rahma Mahdi, based in San Francisco Bay Area. Fullstack Software Engineer in specialized in scaling AI/ML sysytems.",
+    "Rahma Mahdi, based in San Francisco Bay Area. Fullstack Software Engineer specialized in scaling AI/ML systems.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -30,15 +30,16 @@ export default function RootLayout({
 
         <Script id="ga-script" strategy="lazyOnload">
           {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
-      page_path: window.location.pathname,
-    });
-        `}
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+              page_path: window.location.pathname,
+            });
+          `}
         </Script>
       </head>
+
       <body
         className={`${raleway.className} antialiased bg-white dark:bg-dark-100 text-dark-200 dark:text-stone-200`}
       >
@@ -48,7 +49,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          {/* 👇 SINGLE SCROLL CONTAINER */}
+          <main className="h-full overflow-y-auto overflow-x-hidden">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>
