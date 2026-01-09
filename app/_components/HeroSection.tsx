@@ -36,12 +36,11 @@ const HeroSection = () => {
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide"
           />
           <p className="pt-5 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
-          👋
-I&apos;m Rahma a Software Engineer experienced in shipping features to production and scaling ML-powered systems used by 120M+ users.Experienced in end-to-end development of internal SDKs, full-stack applications, and developer tooling. Skilled in rapidly prototyping 0→1 products, optimizing ML pipelines, and shipping reliable, scalable systems in startup-like environments.
+           I&apos;m Rahma, a Software Engineer based in San Francisco Bay Area. I'm experienced in shipping features to production and scaling ML-powered systems used by 120M+ users.Experienced in end-to-end development of internal SDKs, full-stack applications, and developer tooling. Skilled in rapidly prototyping 0→1 products, optimizing ML pipelines, and shipping reliable, scalable systems in startup-like environments.
           </p>
-          <p className="pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
+          {/* <p className="pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
             My recent work includes shipping UI features to 100+ million plus users at Playstation (Sony Interactive Entertainment), and building scalable curriculum tools for open-source education initiatives used by 600+ developers.
-          </p>
+          </p> */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <ShinyButton icon={<ChevronRight />}>
               <Link href="#work">View Projects Now</Link>

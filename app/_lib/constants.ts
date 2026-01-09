@@ -75,6 +75,103 @@ export const techCardsItems = [
   },
 ];
 
+export const workExperiences = [
+  {
+    id: "playstation",
+    heading: "PlayStation",
+    subheading: "Software Engineer (Contract) · Jul 2024 – Jul 2025",
+    description:
+      "Developed and maintained internal SDKs and C++ libraries powering PlayStation’s machine learning deployments on console. Enabled real-time inference, seamless platform integration, and reliable over-the-air ML updates used by millions of devices worldwide.",
+    imageUrl: "/images/logos/playstation.png",
+    techStack: [
+      "C++",
+      "TypeScript",
+      "React",
+      "React Native",
+      "TensorFlow Lite",
+      "LiteRT",
+      "AWS",
+      "CI/CD",
+      "A/B Testing",
+    ],
+    liveDemoUrl: "",
+    sourceCodeUrl: "",
+  },
+  {
+    id: "google",
+    heading: "Google",
+    subheading: "Software Engineering Fellow · Nov 2024 – Feb 2025",
+    description:
+      "Refactored and optimized UI components for performance and accessibility. Collaborated with product and engineering leads to ship features ahead of schedule and support multiple high-impact launches.",
+    imageUrl: "/images/logos/techprep.jpg",
+    techStack: [
+      "React",
+      "TypeScript",
+      "UI/UX Optimization",
+      "Agile/Scrum",
+    ],
+    liveDemoUrl: "",
+    sourceCodeUrl: "",
+  },
+  {
+    id: "techtonica",
+    heading: "Techtonica",
+    subheading: "Full-Stack Software Engineer · Nov 2022 – Dec 2023",
+    description:
+      "Built and scaled production-ready React-based curriculum tools for 600+ developers. Led cross-functional teams and implemented robust front-end and back-end systems using modern web technologies.",
+    imageUrl: "/images/logos/techtonica.jpg",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "REST APIs",
+      "OpenAPI",
+      "Agile/Scrum",
+      "Testing",
+    ],
+    liveDemoUrl: "",
+    sourceCodeUrl: "",
+  },
+  {
+    id: "edge-in-tech",
+    heading: "EDGE in Tech™ (UC Berkeley)",
+    subheading: "Software Developer · Aug 2021 – May 2022",
+    description:
+      "Developed responsive React UI components for applications visualizing large-scale testing data and maintained Python-based analysis tooling to improve education technology insights.",
+    imageUrl: "/images/logos/ucberkeley.jpg",
+    techStack: [
+      "React",
+      "Python",
+      "Data Analysis",
+      "UI Development",
+      "Visualization",
+    ],
+    liveDemoUrl: "",
+    sourceCodeUrl: "",
+  },
+  {
+    id: "uc-berkeley-research",
+    heading: "UC Berkeley",
+    subheading: "Undergraduate Researcher · Sep 2021 – May 2022",
+    description:
+      "Worked on a distributed real-time data processing system for financial market analysis, handling high-throughput data streams with low-latency and high-availability requirements.",
+    imageUrl: "/images/logos/school_education.jpg",
+    techStack: [
+      "Python",
+      "FastAPI",
+      "Apache Kafka",
+      "Redis",
+      "Celery",
+      "Elasticsearch",
+      "Docker",
+      "Distributed Systems",
+    ],
+    liveDemoUrl: "",
+    sourceCodeUrl: "",
+  },
+];
+
 export const portfolioProjects = [
   {
     id: "shoptidy",
@@ -190,7 +287,7 @@ export const testimonialItems = [
     name: "Anil Aksay",
     proffesion: "Staff Engineer at Linkedin",
     description:
-      "“Working with Rahma was a very smooth experience from start to finish. She is enthusiastic in suggesting improvements. Always ready to answer questions or provide  updates. If you're looking for a reliable developer who brings creativity and efficiency to the table, Rahma is the right person!”",
+      "“Working with Rahma was a very smooth experience. Always ready to answer questions or provide  updates. She is enthusiastic in suggesting improvements. If you're looking for a reliable developer who brings efficiency to the table, Rahma is the right person.”",
     image: "/imgs/avatars/Anil.jpg",
   },
   {
@@ -208,7 +305,7 @@ export const testimonialItems = [
     name: "Karena Tyan",
     proffesion: "Staff Technical Program Manager at Sony Interactive Media",
     description:
-      "Rahma is such an incredible member of our team, so productive, positibe, and collabrorative. I am envious of wherever she goes next. They'll be lucky to have her! On several occasions, I have had the privilege to work with Rahma, and she has never failed to impress. She always pays attention to the project requirements, raises up some pertinent issues, and most importantly delivers beyond the call of duty. Rahma is the kind of person who adds value to the team she's in!”",
+      "Rahma is such an incredible member of our team, so productive, positibe, and collabrorative. I am envious of wherever she goes next. They'll be lucky to have her! On several occasions, I have had the privilege to work with Rahma, and she has never failed to impress. She pays attention to the project requirements, raises up some pertinent issues, and most importantly delivers beyond the call of duty. Rahma is the kind of person who adds value to the team she's in!”",
     image: "/imgs/avatars/Karena.jpg",
   },
 ];

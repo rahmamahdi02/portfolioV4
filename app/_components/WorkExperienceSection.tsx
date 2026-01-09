@@ -1,31 +1,33 @@
-import Link from "next/link";
-import { portfolioProjects } from "../_lib/constants";
-import ProjectCard from "./ProjectCard";
+import { workExperiences } from "../_lib/constants";
+import WorkCard from "./WorkCard";
 import ShinyButton from "./ui/ShinyButton";
+import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 
-const ProjectsSection = () => {
+const WorkExperiences = () => {
   return (
-    <div className="py-32" id="work">
+    <div className="py-32" id="about">
+      {/* Header with title + button */}
       <div className="flex gap-4 flex-col sm:flex-row sm:items-center justify-between">
         <h2 className="text-3xl min-[430px]:text-4xl md:text-5xl font-bold dark:text-stone-200">
-          My portfolio
+          Work Experience
         </h2>
 
         <ShinyButton icon={<ChevronRight />}>
-          <Link href="https://github.com/rahmamahdi02" target="_blank">
-            All Projects
+          <Link href="/resume.pdf" target="_blank">
+            View All
           </Link>
         </ShinyButton>
       </div>
 
+      {/* Grid of experience cards */}
       <div className="grid lg:grid-cols-2 gap-4 mt-8">
-        {portfolioProjects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
+        {workExperiences.map((exp) => (
+          <WorkCard key={exp.company} experience={exp} />
         ))}
       </div>
     </div>
   );
 };
 
-export default ProjectsSection;
+export default WorkExperiences;

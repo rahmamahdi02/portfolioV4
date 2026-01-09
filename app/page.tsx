@@ -8,6 +8,7 @@ import { Navbar } from "@/app/_components/ui/Navbar";
 import HeroSection from "@/app/_components/HeroSection";
 import Skills from "@/app/_components/Skills";
 import ProjectsSection from "@/app/_components/ProjectsSection";
+import WorkExperienceSection from "@/app/_components/WorkExperienceSection";
 import Testimonials from "@/app/_components/Testimonials";
 import Footer from "@/app/_components/Footer";
 
@@ -24,8 +25,9 @@ const Homepage = () => {
       <div className="max-w-7xl mx-auto w-full">
         <Navbar navItems={navItems} />
         <HeroSection />
-        <Skills />
+        <WorkExperienceSection />
         <Testimonials />
+        <Skills />
         <ProjectsSection />
         <Footer />
       </div>
