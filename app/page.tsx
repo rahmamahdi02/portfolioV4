@@ -24,8 +24,8 @@ const Homepage = () => {
       <div className="max-w-7xl mx-auto w-full">
         <Navbar navItems={navItems} />
         <HeroSection />
-        <Testimonials />
         <Skills />
+        <Testimonials />
         <ProjectsSection />
         <Footer />
       </div>

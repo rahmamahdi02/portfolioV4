@@ -15,12 +15,18 @@ const HeroSection = () => {
 
       <div
         className="pb-20 pt-36 sm:p-0 sm:min-h-screen flex flex-col items-center justify-center relative"
-        id="#home"
-      >
+        id="#home" >
         <div className="flex flex-col justify-center items-center relative z-10 text-center">
-          <p className="uppercase font-bold text-sm tracking-widest">
+        <div className="inline-flex items-center rounded-full border-2 border-primary/50 bg-primary/10 px-4 py-1 text-sm font-medium text-primary shadow-glow">
+              <span className="relative mr-2 flex h-3 w-3">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/75 opacity-75"></span>
+                <span className="relative inline-flex h-3 w-3 rounded-full bg-primary"></span>
+              </span>
+              Open to opportunities
+            </div>
+          {/* <p className="uppercase font-bold text-sm tracking-widest">
             Based In San Francisco Bay Area
-          </p>
+          </p> */}
           {/* <h1 className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-tight tracking-wide">
             Quality Design &{" "}
             <span className="text-primary">Web Development</span> Synergy
@@ -30,7 +36,8 @@ const HeroSection = () => {
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide"
           />
           <p className="pt-5 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
-          👋 I&apos;m Rahma a Software Engineer experienced in shipping features to production and scaling ML-powered systems used by 120M+ users.Experienced in end-to-end development of internal SDKs, full-stack applications, and developer tooling. Skilled in rapidly prototyping 0→1 products, optimizing ML pipelines, and shipping reliable, scalable systems in startup-like environments.
+          👋
+I&apos;m Rahma a Software Engineer experienced in shipping features to production and scaling ML-powered systems used by 120M+ users.Experienced in end-to-end development of internal SDKs, full-stack applications, and developer tooling. Skilled in rapidly prototyping 0→1 products, optimizing ML pipelines, and shipping reliable, scalable systems in startup-like environments.
           </p>
           <p className="pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
             My recent work includes shipping UI features to 100+ million plus users at Playstation (Sony Interactive Entertainment), and building scalable curriculum tools for open-source education initiatives used by 600+ developers.
