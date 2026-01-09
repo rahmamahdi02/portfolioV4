@@ -4,6 +4,8 @@ import { AnimatedTooltip } from "./ui/Tooltip";
 import { tooltipItems } from "../_lib/constants";
 import Link from "next/link";
 import { TextGenerateEffect } from "./ui/TextGenerate";
+import Underline from "./ui/Underline";
+
 
 const HeroSection = () => {
   return (
@@ -35,9 +37,10 @@ const HeroSection = () => {
             words="AI Systems & Full-stack Development Synergy"
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide"
           />
-          <p className="pt-5 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
-           I&apos;m Rahma, a Software Engineer based in San Francisco Bay Area. I'm experienced in shipping features to production and scaling ML-powered systems used by 120M+ users. Skilled in rapidly prototyping 0→1 products, optimizing ML pipelines, and shipping reliable, scalable systems in startup-like environments.
-          </p>
+<p className="pt-5 pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
+  I&apos;m Rahma, a full-stack software developer based in San Francisco Bay Area. My recent work includes shipping
+  <span className="underline decoration-primary decoration-2 underline-offset-2"> features to 100+ million plus users at Playstation (Sony Interactive Entertainment),
+  </span> and building scalable curriculum tools for open-source education initiatives used by 600+ developers.</p>
           {/* <p className="pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
             My recent work includes shipping UI features to 100+ million plus users at Playstation (Sony Interactive Entertainment), and building scalable curriculum tools for open-source education initiatives used by 600+ developers.
           </p> */}

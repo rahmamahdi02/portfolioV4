@@ -6,15 +6,18 @@ import ShinyButton from "./ui/ShinyButton";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { TextGenerateEffect } from "./ui/TextGenerate";
 
 const WorkExperiences = () => {
   return (
     <section className="py-32 px-5 sm:px-10 lg:px-20" id="about">
       {/* Header with title + button */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-12">
-        <h2 className="text-3xl min-[430px]:text-4xl md:text-5xl font-bold dark:text-stone-200">
-          Work Experience
-        </h2>
+      <TextGenerateEffect
+  words="Professional Experience"
+  className="text-3xl min-[430px]:text-4xl md:text-5xl font-bold dark:text-stone-200"
+/>
+
         <ShinyButton icon={<ChevronRight />}>
           <Link href="https://www.linkedin.com/in/rahmamahdi/" target="_blank">
             Connect on Linkedin

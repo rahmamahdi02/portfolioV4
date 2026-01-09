@@ -3,6 +3,7 @@
 import { techCardsItems } from "../_lib/constants";
 import TechCard from "./TechCard";
 import { motion } from "framer-motion";
+import { TextGenerateEffect } from "./ui/TextGenerate";
 
 const Skills = () => {
   return (
@@ -15,7 +16,10 @@ const Skills = () => {
           transition={{ duration: 0.5, delay: 0.25 }}
           className="text-3xl min-[430px]:text-4xl md:text-5xl font-bold dark:text-stone-200"
         >
-          Current technologies
+<TextGenerateEffect
+  words="Current Technologies"
+  className="text-3xl min-[430px]:text-4xl md:text-5xl font-bold dark:text-stone-200"
+/>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, x: -90 }}
