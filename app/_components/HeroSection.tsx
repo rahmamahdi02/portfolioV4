@@ -4,8 +4,6 @@ import { AnimatedTooltip } from "./ui/Tooltip";
 import { tooltipItems } from "../_lib/constants";
 import Link from "next/link";
 import { TextGenerateEffect } from "./ui/TextGenerate";
-import Underline from "./ui/Underline";
-
 
 const HeroSection = () => {
   return (
