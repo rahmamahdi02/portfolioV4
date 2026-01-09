@@ -39,7 +39,7 @@ const HeroSection = () => {
           />
 <p className="pt-5 pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
   I&apos;m Rahma, a full-stack software developer based in San Francisco Bay Area. My recent work includes shipping
-  <span className="underline decoration-primary decoration-2 underline-offset-2"> features to 100+ million plus users at Playstation (Sony Interactive Entertainment),
+  <span className="underline decoration-primary decoration-2 underline-offset-2"> AI/ML features to 100+ million plus users at Playstation (Sony Interactive Entertainment),
   </span> and building scalable curriculum tools for open-source education initiatives used by 600+ developers.</p>
           {/* <p className="pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
             My recent work includes shipping UI features to 100+ million plus users at Playstation (Sony Interactive Entertainment), and building scalable curriculum tools for open-source education initiatives used by 600+ developers.
