@@ -287,7 +287,7 @@ export const testimonialItems = [
     name: "Anil Aksay",
     proffesion: "Staff Engineer at Linkedin",
     description:
-      "“Working with Rahma was a very smooth experience. Always ready to answer questions or provide  updates. She is enthusiastic in suggesting improvements. If you're looking for a reliable developer who brings efficiency to the table, Rahma is the right person.”",
+      "“Working with Rahma was a very smooth experience. Always ready to answer questions or provide  updates. She is enthusiastic in suggesting improvements. Great job!”",
     image: "/imgs/avatars/Anil.jpg",
   },
   {
@@ -296,7 +296,7 @@ export const testimonialItems = [
     name: "Keri Carpenter",
     proffesion: "Senior Engineering Manager at Sony Interactive Entertainment",
     description:
-      "Rahma is an outstanding professional and presents consistently high level of work. During her time at Sony Interactive Media, she has demonstrated extraordinary skills in simplifying complex ideas into clean, functional, and visually appealing designs. Her communication is to the point and time management is perfect, even for the most pressing deadlines. I would highly recommend her to any company looking to bring on a fullstack software developer with strong technical skills and an keen eye for design.”",
+      "Rahma is an outstanding professional and presents consistently high level of work. During her time at Playstation, she has shown efficiency in simplifying complex ideas into clear technical language. Her communication is to the point and time management is great, even for the most pressing deadlines. I would highly recommend her to any company looking to bring on a fullstack software developer with strong technical skills.”",
     image: "/imgs/avatars/Keri.jpg",
   },
   {
@@ -305,7 +305,7 @@ export const testimonialItems = [
     name: "Karena Tyan",
     proffesion: "Staff Technical Program Manager at Sony Interactive Media",
     description:
-      "Rahma is such an incredible member of our team, so productive, positive, and collabrorative. I am envious of wherever she goes next. They'll be lucky to have her! On several occasions, I have had the privilege to work with Rahma, and she has never failed to impress. She pays attention to the project requirements, raises up some pertinent issues, and most importantly delivers beyond the call of duty. Rahma is the kind of person who adds value to the team she's in!”",
+      "Rahma is such an incredible member of our team, so productive, positive, and collabrorative. On several occasions, I have had the privilege to work with Rahma, and she has never failed to impress. She pays attention to the project requirements, raises up some pertinent issues, and most importantly delivers beyond the call of duty. Rahma is the kind of person who adds value to the team she's in!”",
     image: "/imgs/avatars/Karena.jpg",
   },
 ];
