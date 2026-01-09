@@ -26,7 +26,7 @@ const Skills = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.25 }}
-          className="text-sm min-[430px]:text-base max-w-lg md:max-w-3xl text-dark-200/70 dark:text-stone-200/70"
+          className="text-md min-[430px]:text-base max-w-lg md:max-w-3xl text-dark-200/70 dark:text-stone-200/70"
         >
           I&apos;m proficient in a range of modern technologies that empower me
           to build highly functional solutions.Adept at TypeScript, Node.js, React Native (including bridgeless architecture), and Python. Passionate about developer experience, open-source collaboration, developer-friendly APIs, and building robust, user-facing systems from the ground up.
