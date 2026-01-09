@@ -6,13 +6,12 @@ import { ChevronRight } from "lucide-react";
 
 const WorkExperiences = () => {
   return (
-    <div className="py-32" id="about">
+    <div className="h-screen py-32" id="about">
       {/* Header with title + button */}
-      <div className="flex gap-4 flex-col sm:flex-row sm:items-center justify-between">
+      <div className="flex gap-4 flex-col sm:flex-row sm:items-center justify-between mb-8">
         <h2 className="text-3xl min-[430px]:text-4xl md:text-5xl font-bold dark:text-stone-200">
           Work Experience
         </h2>
-
         <ShinyButton icon={<ChevronRight />}>
           <Link href="https://www.linkedin.com/in/rahmamahdi/" target="_blank">
             Connect on Linkedin
@@ -20,10 +19,12 @@ const WorkExperiences = () => {
         </ShinyButton>
       </div>
 
-      {/* Grid of experience cards */}
-      <div className="grid lg:grid-cols-2 gap-4 mt-8">
+      {/* Vertical scroll container */}
+      <div className="h-[70vh] overflow-y-auto space-y-8 snap-y snap-mandatory">
         {workExperiences.map((exp) => (
-          <WorkCard key={exp.company} experience={exp} />
+          <div key={exp.company} className="snap-start">
+            <WorkCard experience={exp} />
+          </div>
         ))}
       </div>
     </div>
@@ -31,3 +32,5 @@ const WorkExperiences = () => {
 };
 
 export default WorkExperiences;
+
+

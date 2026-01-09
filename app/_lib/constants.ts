@@ -157,7 +157,7 @@ export const workExperiences = [
     description:
       "Worked on a distributed real-time data processing system for financial market analysis, handling high-throughput data streams with low-latency and high-availability requirements.",
     companyLogo: "/imgs/work/school_education.jpg",
-    techStack: [
+    technologies: [
       "Python",
       "FastAPI",
       "Apache Kafka",
